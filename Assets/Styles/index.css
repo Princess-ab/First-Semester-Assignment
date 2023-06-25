@@ -1,0 +1,289 @@
+:root {
+  --button: #0065fe;
+}
+
+body {
+  background: linear-gradient(to right, #fdfeff, #ffffff);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 120px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav {
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.dropdown-btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.dropdown-btn img {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+  display: none;
+}
+
+.login-btn,
+.free-trial-btn {
+  margin-left: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: var(--button);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.text-container {
+  margin-bottom: 30px;
+}
+
+.text-heading {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.9;
+  margin-bottom: -10px;
+}
+
+.blue-text {
+  color: var(--button);
+}
+
+.highlight-image {
+  width: 150px;
+  height: auto;
+}
+
+.subheading {
+  font-size: 16.8px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-button,
+.learn-more-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.sign-up-button {
+  background-color: var(--button);
+  color: #ffffff;
+}
+
+.section2 {
+  position: relative;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  margin-top: -150px;
+}
+
+.vector-image {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 35%;
+  background: linear-gradient(to right, #e2e9f0, #ffffff);
+  border-radius: 20px;
+  border: 2px solid black;
+  z-index: 2;
+}
+
+.link-image {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 4;
+}
+
+.text p {
+  margin: 5px;
+}
+
+.footer-image {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  width: 100%;
+  max-width: 100%;
+}
+
+.image-1 {
+  width: 100%;
+  height: auto;
+}
+
+.frame-1 {
+  background-color: #f8fafc;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 200px;
+}
+
+.frame-a {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.frame-a-heading {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.frame-a-highlight {
+  color: var(--button);
+}
+
+.frame-b {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat {
+  margin: 0 20px;
+}
+
+.top-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bottom-text {
+  font-size: 16px;
+  text-align: left;
+}
+
+.frame-2 {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.frame-2-a {
+  flex: 1;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.heading-frame {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 2px;
+  height: 30px;
+  background-color: #0065fe;
+  margin-right: 10px;
+}
+
+.heading-frame header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.scissors {
+  color: #0065fe;
+}
+
+.frame-2-a p {
+  font-size: 16px;
+  text-align: left;
+}
